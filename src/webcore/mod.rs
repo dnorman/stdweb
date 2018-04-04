@@ -21,6 +21,8 @@ pub mod discard;
 
 #[cfg(feature = "futures")]
 pub mod promise_future;
+#[cfg(feature = "futures2")]
+pub mod promise_future2;
 
 #[cfg(feature = "futures")]
 pub mod executor;
